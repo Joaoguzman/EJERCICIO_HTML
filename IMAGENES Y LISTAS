@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Challenge: A picture-perfect trip</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>The perfect trip</h1>
+        
+        <p>I would see scenes like...</p>
+        
+        <img src="https://www.kasandbox.org/programming-images/landscapes/beach-waves-at-sunset.png" alt="playa" width="400" height="200">
+        
+        <p>And animals like...</p>
+        <img src="https://www.kasandbox.org/programming-images/animals/retriever.png" alt="perro" width="400" height="200">
+        
+        <p>And eat food like...</p>
+        <img src="https://www.kasandbox.org/programming-images/food/chocolates.png" alt="chocolate" width="400" height="200">
+        
+        <ol>
+          <li>primero</li>
+          <li>segundo</li>
+          <li>primero</li>
+          <li>segundo</li>
+          <li>primero</li>
+          </ol>
+          <ul>
+          <li>primero</li>
+          <li>segundo</li>
+          <li>primero</li>
+          <li>segundo</li>
+          <li>primero</li>
+
+          </ul>
+        
+    </body>
+</html>
