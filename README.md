@@ -8,7 +8,7 @@ https://joaoguzman.github.io/EJERCICIO_HTML/
 
 <html>
     <head>
-        <title>Challenge: Write a Poem</title>
+       
         <meta charset="utf-8">
     </head>
     <body>
