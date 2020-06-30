@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        body {
+            background-color: rgb(245, 205, 44);
+        }
+        </style>
+    </head>
+    <body>
+       
+        <h1>Joao's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#Receta1">Recipe #1</a></li>
+            <li><a href="#Receta2">Recipe #2</a></li>
+        </ol>
+        
+        <h2 id="Receta1">Recipe #1</h2>
+        
+        <ul>
+            <li>Time: _</li>
+            <li>Serves: _</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Do something.
+</p>
+        
+    <p><em>Source: <a href="https://www.google.com/">Some recipes websites</a></em></p>
+    
+    
+    <h2 id="Receta2">Recipe #2</h2>
+        
+        <ul>
+            <li>Time: _</li>
+            <li>Serves: _</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Do something.
+</p>
+        
+    <p><em>Source: <a href="https://www.google.com/">Some recipes websites</a></em></p>
+    
+    </body>
+</html>
