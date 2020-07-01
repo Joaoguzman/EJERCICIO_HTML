@@ -6,6 +6,5 @@ Fue elaborado en el marco de Campus Injuv del Instituto Nacional de la Juventud 
 Tiempo de desarrollo: aproximadamente 4 horas. 
 
 
-https://joaoguzman.github.io/EJERCICIO_HTML/
-
+https://joaoguzman.github.io/Proyecto_Web.Developer_INJUV/
 
