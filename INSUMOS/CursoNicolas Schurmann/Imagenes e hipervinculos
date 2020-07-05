@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Titulo del sitio web</title>
+    </head>
+    <body>
+        <h3>Place kitten</h3>
+        <h4>https://placekitten.com</h4>
+       <img src="http://placekitten.com/203/200"/>
+        <a href="https://placekitten.com">Ir a Place kitten</a>    
+    </body> 
+
+</html>
