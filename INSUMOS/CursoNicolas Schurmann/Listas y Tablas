@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Titulo del sitio web</title>
+    </head>
+    <body>
+     <h1>Listas</h1> <br />
+    
+        <ul>
+            <li>Elemento 1 sin orden</li>
+            <li>Elemento 1 sin orden</li>
+            <li>Elemento 1 sin orden</li>
+            <li>Elemento 1 sin orden</li>
+            <li>Elemento 1 sin orden</li>
+
+        </ul>
+        <ol>
+            <li>Primer elemento</li>
+            <li>Segundo elemento</li>
+            <li>Tercer elemento</li>
+
+        </ol>
+    <h1>Tablas</h1>
+        <table>
+            <!--Cabecera de la tabla con "thead"
+                Para indicar las filas se utiliza etiqueta tr
+            Contenido de las celdas es con "th"-->
+            <thead>
+                <tr>
+                    <th>Mes</th>
+                    <th>Ahorros</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Enero</td>
+                    <td>$100</td>
+                <tr>
+                <tr>
+                    <td>Enero</td>
+                    <td>$100</td>
+                <tr>
+                 <tr>
+                    <td>Enero</td>
+                    <td>$100</td>
+                <tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Suma total:</td>
+                    <td>200</td>
+
+                </tr>
+            </tfoot>
+        </table>
+
+
+    </body> 
+
+</html>
