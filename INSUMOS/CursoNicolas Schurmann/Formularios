@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Titulo del sitio web</title>
+    </head>
+    <body>
+       <form>
+           <fieldset>
+               <legend>Formulario nº 1</legend>
+           <label>Edad</label>
+           <input type="password" placeholder="Ingresar contraseña" /> 
+           <br />
+           <label>Edad</label>
+           <input type="number"/>
+           <br />
+           <label>Edad</label>
+           <input type="number"/>
+           <br />           
+           <label>Edad</label>
+           <input type="text"/>
+           <br />
+           <input type="submit" value="Nuevo string del boton"/>
+           <br />
+        <p>Existen distintos tipos de formularios: <br /> 
+        Propiedad <strong>number</strong>: solo permite ingresar números. Permite ingresar e porque es una constante matemática que es igual a 2.71828 <br />
+        Propiedad <strong>password</strong>: todo lo que se escribe lo muestra como asteriscos.
+        Propiedad <strong>text</strong>: permite ingresar text.
+        Propiedad <strong>submit</strong>: agrega un boton para enviar el formulario. <br />
+
+        Placeholder consiste en un string que desaparece cuando se completa el campo. <br>
+        fieldset consiste en un recuadro que agrupa etiquetas, inputs y botones del formulario. <br />
+        Etiqueta <strong> textarea </strong> crea un cuadro para introducir texto. <br /></p>
+
+        <textarea>Texto</textarea> <br />
+        <button>Enviar</button>
+        <select>
+            <option value="primero">Primero</option>
+            <option value="segundo">Segundo</option>
+            <option value="tercero">Tercero</option>
+            <option value="cuarto">Cuarto</option>
+            <option value="quinto">Quinto</option>
+        </select>
+
+        <p> La etiqueta button agregar un botón al cuadro de texto o al formulario. <br />
+        La etiqueta select permite entregar opciones en una sub etiqueta option. <br />
+        Los valores de option es la información que e envía del formulario y el string es lo que selecciona el usuario. </p>
+           
+            </fieldset>
+
+       </form>
+
+    </body> 
+
+</html>
