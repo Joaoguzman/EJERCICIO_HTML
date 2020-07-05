@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Titulo del sitio web</title>
+    </head>
+    <body>
+      <ul>
+            <li><a href="NOMBREPAGINA.html">Referenciar otra página HTML</a></li>
+      </ul>
+      </body> 
+
+</html>
