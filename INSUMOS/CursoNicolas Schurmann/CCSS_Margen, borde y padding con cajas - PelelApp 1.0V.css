@@ -1,0 +1,30 @@
+body{
+    background-color: #eee;
+    color: #530e0e;
+}
+
+.caja {
+    margin:30px;
+    margin-bottom: 15px;
+    padding: 30px;
+    border-style: dotted;
+    font-size: xx-large;
+    background-color: #eeeee1;
+    border-color: chocolate;
+    border-radius: 3px;
+    height: 40px;
+    width: 120px;
+
+}
+
+.company {
+    margin: 30px;
+    margin-top: 5px;
+    padding: 30px;
+    padding-top: 0px;
+    padding-left: 15 px;
+    height: 40px;
+    width: 130px;
+    align-content: center;
+    border-style: none;
+}
