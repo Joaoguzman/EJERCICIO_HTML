@@ -1,10 +1,10 @@
-body{
+body {
     background-color: #eee;
     color: #530e0e;
 }
 
 .caja {
-    margin:30px;
+    margin: 30px;
     margin-bottom: 15px;
     padding: 30px;
     border-style: dotted;
@@ -14,7 +14,6 @@ body{
     border-radius: 3px;
     height: 40px;
     width: 120px;
-
 }
 
 .company {
@@ -28,6 +27,7 @@ body{
     align-content: center;
     border-style: none;
 }
+
 .desc {
     background-color: #eeeee7;
     margin: 25px;
@@ -37,8 +37,10 @@ body{
     border-color: #fff;
     border-radius: 2px;
     width: 170px;
-    align-items:center;
+    align-items: center;
+    text-align: justify;
 }
+
 .footer {
     background-color: #eee;
     margin: 25px;
@@ -49,7 +51,7 @@ body{
     border-color: #ccc;
     border-radius: 2px;
     width: 120px;
-    align-items:center;
+    align-items: center;
 }
 
 .bpelelas {
