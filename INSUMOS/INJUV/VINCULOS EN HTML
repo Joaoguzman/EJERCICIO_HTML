@@ -9,10 +9,10 @@
         <h1>Links I love</h1>
         
         <ul>
-            <li> <a tarjet="_blank" href="https://www.google.cl"> AJAJAJA</a></li>
-            <li> <a tarjet="_blank" href="https://www.google.cl"> jaja</a></li>
+            <li> <a target="_blank" href="https://www.google.cl"> AJAJAJA</a></li>
+            <li> <a target="_blank" href="https://www.google.cl"> jaja</a></li>
        
-        <li> <a tarjet="_blank" href="https:/www.google.cl"> wikijiji</a></li>
+        <li> <a target="_blank" href="https:/www.google.cl"> wikijiji</a></li>
         </ul>
 
         <img src="https://www.kasandbox.org/programming-images/cute/Heart.png">
