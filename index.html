@@ -53,8 +53,50 @@
         color: red;
     }
     
-    .photo {
-        text-align: center;
+    #pacto {
+        padding-left: 10%;
+    }
+    
+    #facso {
+        float: right;
+        padding-right: 5%;
+    }
+    
+    .galeria {
+        height: calc( var(--h) + 3em);
+        width: var(--w);
+        margin: 30%;
+        margin-top: 0%;
+        border: 1px solid #555;
+        position: relative;
+        align-content: center;
+        display: inline-block;
+    }
+    
+    .galeria img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 3s;
+    }
+    
+    .galeria input[type=radio] {
+        position: relative;
+        bottom: calc(-1 * var(--h) - 1.5em);
+        left: .5em;
+    }
+    
+    .galeria input[type=radio]:nth-of-type(1):checked~img:nth-of-type(1) {
+        opacity: 1;
+    }
+    
+    .galeria input[type=radio]:nth-of-type(2):checked~img:nth-of-type(2) {
+        opacity: 1;
+    }
+    
+    .galeria input[type=radio]:nth-of-type(3):checked~img:nth-of-type(3) {
+        opacity: 1;
     }
 </style>
 
@@ -116,21 +158,22 @@
         </tbody>
     </table>
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Pacto_Global_Chile.jpg" alt="playa" width="400" height="200">
-    <div class="hab">
+    <img id="pacto" src=" https://upload.wikimedia.org/wikipedia/commons/3/36/Pacto_Global_Chile.jpg " alt="playa " width="400 " height="200 ">
+    <div class="hab ">
         <p>Habilidades desarrolladas: Análisis de datos en Excel, trabajo en grupo y proactividad.
         </p>
     </div>
 
-    <p><em>Source: <a href="https://pactoglobal.cl/">Red Pacto Global Chile</a></em></p>
+    <p><em>Source: <a href="https://pactoglobal.cl/ ">Red Pacto Global Chile</a></em></p>
 
 
-    <h2 id="A">Estudios universitarios y apoyo docente</h2>
+    <h2 id="A ">Estudios universitarios y apoyo docente</h2>
     <p><strong>Licenciado en Sociología por la Universidad de Chile</strong>, en proceso de titulación</p>
+    <img id="facso" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Facultad_de_Ciencias_Sociales_%28Universidad_de_Chile%29.jpg/1280px-Facultad_de_Ciencias_Sociales_%28Universidad_de_Chile%29.jpg " alt="playa " width="400 " height="200 ">
 
     <ul>
 
-        <li>Ayudante en cinco versiones del curso de formación general Educación Superior y Segregación Social. Universidad de Chile, Santiago, Chile.</li><br>
+        <li>Ayudante en cinco versiones del curso de formación general Educación Superior y Segregación Social.<br /> Universidad de Chile, Santiago, Chile.</li><br>
 
         <li>Ayudante del curso de Sociología Económica en Universidad de Chile, Santiago, Chile.</li><br>
 
@@ -143,15 +186,16 @@
 
     </ul>
 
-    <div class="hab">
+
+    <div class="hab ">
         <p>Habilidades: Enseñanza, empatía, habilidades comunicativas y análisis crítico.
         </p>
+
     </div>
 
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Facultad_de_Ciencias_Sociales_%28Universidad_de_Chile%29.jpg/1280px-Facultad_de_Ciencias_Sociales_%28Universidad_de_Chile%29.jpg" alt="playa" width="400" height="200">
 
-    <h2 id="CER">Certificaciones</h2>
+    <h2 id="CER ">Certificaciones</h2>
     <table>
         <thead>
             <tr>
@@ -178,26 +222,31 @@
             </tr>
         </tbody>
     </table>
-    <h2 id="O">Otras experiencias y habilidades</h2>
+    <h2 id="O ">Otras experiencias y habilidades</h2>
 
     <h3>Experiencias académicas </h3>
     <p>Colaboré en la Red de Estudios Nueva Economía por 5 años (2015-2020). También colaboré en el Núcleo de Sociología del Cuerpo y las Emociones de la Facultad de Ciencias Sociales de la Universidade Chile (2015). </p>
     <h3>Experiencias deportivas </h3>
     <p>Práctica de calistenia y senderismo por un año.</p>
 
-    <p class="hab">Habilidades desarrolladas: Constancia, disciplina, autoformación y trabajo en equipo.
+    <p class="hab ">Habilidades desarrolladas: Constancia, disciplina, autoformación y trabajo en equipo.
     </p>
 
-    <p class="photo">Senderismo: </p>
-    <div align="center"><img src="https://www.kasandbox.org/programming-images/landscapes/mountains-in-hawaii.png" alt="playa" width="300" height="180" class="photo"></div>
+    <div class="galeria" style="--w: 260px; --h: 200px;">
+        <input type="radio" name="navigation1" id="_1" checked>
+        <input type="radio" name="navigation1" id="_2">
+        <input type="radio" name="navigation1" id="_3">
+        <img src="https://www.kasandbox.org/programming-images/landscapes/mountains-in-hawaii.png" width="260" height="200" alt="Galeria CSS 1" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Maurice_Ruiz_and_Ben_Poon.jpg" width="260" height="200" alt="Galeria CSS 2" />
+        <img src="https://www.kasandbox.org/programming-images/landscapes/mountain_matterhorn.png" width="260" height="200" alt="Galeria CSS 3" />
+    </div>
 
-    <p class="photo">Calistenia: </p>
-    <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Maurice_Ruiz_and_Ben_Poon.jpg" alt="playa" width="300" height="180"></div>
 
-    <p class="photo">Montañismo: </p>
-    <div align="center"><img src="https://www.kasandbox.org/programming-images/landscapes/mountain_matterhorn.png" alt="playa" width="300" height="180"></div>
+    </div>
 
 
 </body>
+
+</html>
 
 </html>
